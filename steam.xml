@@ -1,0 +1,11 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>Steam</ShortName>
+	<Description>Steam Search</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAAAHBgn///8bGxwMCQ3HysVdW16hrJt0c3XI1cBTVlG2tra8v7mRlo+MjIx8fHxtb2u0ZnsIAAAAAXRSTlMAQObYZgAAAGxJREFUGNNNzEkOBCEMQ1FsJ4w93f+0XSUC1JdY+AklJURSF3B2d5JuWCCnmdEP0AqLuKHTyOvlBW3+2PAhh5n9iNTnhSgjkbW+Yr6FC+50UwWwgKILE0oAEIDc8hhqB5AptfoAfN2rNiREsf9o6AKja4u10AAAAABJRU5ErkJggg==</Image>
+	<Url type="text/html" template="http://store.steampowered.com/search/">
+		<Param name="term" value="{searchTerms}"/>
+	</Url>
+	<!-- Url type="application/x-suggestions+json" template="suggestionURL"/ -->
+	<moz:SearchForm>http://store.steampowered.com/search/</moz:SearchForm>
+</OpenSearchDescription>
